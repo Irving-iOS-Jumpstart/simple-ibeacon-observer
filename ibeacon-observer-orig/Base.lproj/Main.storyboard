@@ -22,7 +22,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="133" y="63" width="134" height="21"/>
                                 </variation>
                             </label>
@@ -157,7 +157,7 @@
                                 <state key="normal" title="Start Detecting">
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
-                                <variation key="heightClass=regular-widthClass=compact" ambiguous="YES" misplaced="YES">
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
                                     <rect key="frame" x="148" y="418" width="104" height="30"/>
                                 </variation>
                                 <connections>
@@ -166,10 +166,6 @@
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
-                        <constraints>
-                            <constraint firstAttribute="centerX" secondItem="ZnX-Ff-Ahf" secondAttribute="centerX" id="JrY-r9-h1A"/>
-                            <constraint firstAttribute="centerX" secondItem="iTJ-Vm-alo" secondAttribute="centerX" id="bIK-oI-5OV"/>
-                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="fuA-Tx-DcK"/>
@@ -187,10 +183,6 @@
                                 <exclude reference="N8B-Qn-Uag"/>
                                 <exclude reference="y8o-vk-o9b"/>
                                 <exclude reference="iTJ-Vm-alo"/>
-                            </mask>
-                            <mask key="constraints">
-                                <exclude reference="JrY-r9-h1A"/>
-                                <exclude reference="bIK-oI-5OV"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -210,10 +202,6 @@
                                 <include reference="N8B-Qn-Uag"/>
                                 <include reference="y8o-vk-o9b"/>
                                 <include reference="iTJ-Vm-alo"/>
-                            </mask>
-                            <mask key="constraints">
-                                <include reference="JrY-r9-h1A"/>
-                                <include reference="bIK-oI-5OV"/>
                             </mask>
                         </variation>
                     </view>
